@@ -9,7 +9,7 @@ $date= date('Y/m/d H:i');
 //fetch data
 $foraction = mysql_query("SELECT * FROM instagram where status='Active' limit 15");
 
-$sleep = array('00','01','02','03','04','5','12','15','19','23');
+$sleep = array('00','01','02','03','04','05','12','15','19','23');
        if (in_array($runtime, $sleep))
        {
        echo"Sleep time Night  12 to Morng 6<br>";
