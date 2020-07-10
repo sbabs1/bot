@@ -1,6 +1,6 @@
 <?php
 include '../config.php';
-require_once('../home/page/lib/lib.php');
+require_once('../page/lib/lib.php');
 date_default_timezone_set("Asia/Jakarta");
 
  $ip = getIp();
